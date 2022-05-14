@@ -12,8 +12,7 @@ h1 {
   font-weight: bold;
   font-size: 45px;
 }
-.cover {
-}
+
 .form {
   font-size: 20px;
   width: 700px;
@@ -34,6 +33,14 @@ h1 {
 }
 
 .submit {
+  border-radius: 9px;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  margin: 22px 20px;
+}
+
+.view {
   border-radius: 9px;
   width: 150px;
   height: 50px;
@@ -74,10 +81,11 @@ td {
   height: 50px;
   font-size: 25px;
   margin: 22px 20px;
+
 }
 
 h3 {
-  color: red;
+  color: #fff;
 }
 .colored-section {
   background-color: #c51316;
@@ -98,16 +106,23 @@ h3 {
 .cover {
   width: 100%;
   height: 25%;
-  padding-top: 24px;
+  padding-top: 30px;
+  
+}
+.container-fluid{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 0%;
+  /*background-image: linear-gradient(to right, #3f3942, #b283c9);*/
 }
 .iheading {
   height: 10em;
-  position: relative;
+  
   color: #fff;
 }
 .iheading {
   margin: 0;
-  padding-top: 60px;
+  padding-top: 20px;
   position: absolute;
   font-size: 40px;
   top: 50%;
@@ -115,6 +130,7 @@ h3 {
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
 
 .topnav {
   width: 100%;
@@ -129,6 +145,7 @@ h3 {
   transition: all 0.3s ease;
   color: #fff;
   font-size: 25px;
+  padding-left: 20px;
 }
 
 .topnav a:hover {
@@ -136,6 +153,8 @@ h3 {
 }
 #quotes {
   padding-top: 100px;
+  background-color:#FFE5B4;
+  border-radius: 25px;
 }
 .quotes-text {
   text-align: center;
@@ -157,6 +176,7 @@ em {
 }
 .card-title {
   text-align: center;
+
 }
 .quotes-image {
   width: 10%;
@@ -165,6 +185,7 @@ em {
 }
 .bookcards {
   padding-top: 100px;
+  background-color:#fff;
 }
 
 .bookheading {
@@ -185,13 +206,14 @@ em {
 }
 
 .login input {
-  width: 400px;
+  width: 350px;
   padding: 12px 20px;
   border: 1px red;
   margin: 30px auto;
   border-radius: 100px;
   font-size: 15px;
 }
+
 .loginform {
   margin-top: 150px;
   padding-bottom: 50px;
@@ -199,3 +221,4 @@ em {
 #submit {
   padding-bottom: 30px;
 }
+
